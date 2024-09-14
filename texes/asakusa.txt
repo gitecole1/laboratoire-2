@@ -1,7 +1,7 @@
  Titre: Asakusa
 
- Image de gauche: kaminarimon.jpg (URL: https://fr.wikipedia.org/wiki/Kaminarimon)
-
+ Image de gauche: kaminarimon.jpg ()
+URL: https://fr.wikipedia.org/wiki/Kaminarimon
  Description: 
 
     Asakusa (浅草) est un quartier populaire de Tokyo de l'arrondissement Taitō, proche d'Ueno, le long de la rivière
