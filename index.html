@@ -1,30 +1,48 @@
-<!DOCTYPE html>
+<!DOCTYPE html>                  <!-- nom: Balkissou Ouma Amadou -->
 <html lang="fr">
 
 
 <head>
     <meta charset="UTF-8">
-    <title>laboratoire 2</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>image avec texe</title>
+    <link rel="stylesheet" href="style.css">
+    
     <style>
         body {
 
               background-color: rgb(20, 255, 39);
         }
-        h1 , h2 ,h3, h4 {
+        h2 , h2 ,h3, h4 , h5{
              color: red;
         }
-        h1 {
-            font-size:large;
-        }
+
+       imange-container{
+        position: relative;
+       }
+       
+        rectangle-image{ 
+        filter: grayscale(0.5);
+       }
+       text{
+        text-shadow:1px 1px 2px black, 0 0 1em red, 0 0 0.2em red ;
+       }
     </style>
      
 </head>
 
 <body>
-    <h1> Hara juku </h1>
+    <div class="images-container">
+    <img src="images/banniere.jpg" alt="banniere" class="rectangle-image"> 
+    <div class="text">
+      <h1> Endroits à visiter à Tokyo </h1>  
+      </div>
+    </div>
 
-    <p><img src="images/banniere.jpg" alt="" style="max-height: 256px; max-width: 256px; padding-right: 16px; padding-left: 16px; float: left;">  <a href="https://fr.wikipedia.org/wiki/Meiji-jing%C5%AB"> <img src="images/meiji-jingu.jpg" alt="https://fr.wikipedia.org/wiki/Meiji-jing%C5%AB" style="max-height: 256px; max-width: 256px;padding-left: 16px; padding-right: 16px; float: right;"></a> 
+
+
+    <h2> Hara juku </h2>
+
+    <p><img src="images/harajuku.jpg" alt="" style="max-height: 256px; max-width: 256px; padding-right: 16px; padding-left: 16px; float: left;">  <a href="https://fr.wikipedia.org/wiki/Meiji-jing%C5%AB"> <img src="images/meiji-jingu.jpg" alt="https://fr.wikipedia.org/wiki/Meiji-jing%C5%AB" style="max-height: 256px; max-width: 256px;padding-left: 32px; padding-right: 16px; float: right;"></a> 
     <p>Harajuku (原宿) est un sous-quartier faisant partie du quartier de Jingumae, dans l'arrondissement de Shibuya à Tokyo.  </p>
     <p>     </p>
       <p>   Ce quartier est fréquenté par un grand nombre de jeunes qui profitent du week-end, durant lequel ils n'ont pas
@@ -47,9 +65,9 @@
         <p>     </p>
 
 
-    <h2>  odaiba </h2> 
+    <h3>  odaiba </h3> 
 
-    <p><img src="images/gundam.jpg" alt=""  style="max-height: 256px ;max-width: 256px;padding-left: 16px; padding-right: 16px; float:right">  Odaiba (お台場), parfois appelé Daiba, est une grande île artificielle située dans la baie de Tokyo au Japon. Daiba en
+    <p><img src="images/gundam.jpg" alt=""  style="max-height: 256px ;max-width: 256px;padding-left: 32px; padding-right: 16px; float:right">  Odaiba (お台場), parfois appelé Daiba, est une grande île artificielle située dans la baie de Tokyo au Japon. Daiba en
         japonais signifie forteresse, en référence aux batteries de canons positionnées sur les îles. Administrativement,
         Odaiba appartient aux arrondissements de Minato et de Kōtō.
     <p>    </p>
@@ -74,7 +92,7 @@
 
 
 
-    <h3>Asakusa </h3>
+    <h4>Asakusa </h4>
 
     <p><a href="https://fr.wikipedia.org/wiki/Kaminarimon"><img src="images/kaminarimon.jpg" alt="https://fr.wikipedia.org/wiki/Kaminarimon" style="max-height: 256px ;max-width: 256px;padding-right: 16px; padding-left: 16px; float:left"> </a> Asakusa (浅草) est un quartier populaire de Tokyo de l'arrondissement Taitō, proche d'Ueno, le long de la rivière
          Sumida, accessible par la rue Kappabashi.
@@ -101,9 +119,9 @@
 
 
 
-    <h4> Akihabara</h4>
+    <h5> Akihabara</h5>
 
-    <p><img src="images/akihabara.jpg" alt= "" style="max-height: 256px ;max-width: 256px;padding-left: 16px ; padding-right: 16px; float:right"> Akihabara (秋葉原) est un quartier de Tokyo situé à cheval sur les arrondissements de Chiyoda et de Taitō.Il est
+    <p><img src="images/akihabara.jpg" alt= "" style="max-height: 256px ;max-width: 256px;padding-left: 32px ; padding-right: 16px; float:right"> Akihabara (秋葉原) est un quartier de Tokyo situé à cheval sur les arrondissements de Chiyoda et de Taitō.Il est
         célèbre pour ses très nombreuses boutiques d'électronique et pour les mangas qui s'y trouvent. Il est connu dans le
         monde sous le nom de Akihabara Electric Town (秋葉原電気街, Akihabara denki-gai). Le centre de ce quartier est la gare
         d'Akihabara.</p>
