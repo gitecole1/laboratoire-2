@@ -16,27 +16,33 @@
              color: red;
         }
 
-       imange-container{
-        position: relative;
-       }
-       
-        rectangle-image{ 
+        image-container {
+        background-color: black;
+    }
+       image-container{
         filter: grayscale(0.5);
-       }
-       text{
-        text-shadow:1px 1px 2px black, 0 0 1em red, 0 0 0.2em red ;
-       }
+        background-image:url("banniere.jpg");
+        background-position: center;
+        background-size: cover;
+        image-rendering: pixelated;
+        padding: 32px;
+        color: brown
+    }
+    text {
+        text-shadow: 1px 1px 2px black, 0 0 1em red, 0 0 0.2em red;
+        text-align: center;
+    }
+   
     </style>
      
 </head>
 
-<body>
-    <div class="images-container">
-    <img src="images/banniere.jpg" alt="banniere" class="rectangle-image"> 
-    <div class="text">
-      <h1> Endroits à visiter à Tokyo </h1>  
-      </div>
-    </div>
+<body> 
+       <img src="images/banniere.jpg" alt="" style=" background-position: center; image-rendering: pixelated; padding-right: 32px; padding-left: 32px; filter: grayscale(0.5); float: left; ">
+
+       <h1 style="text-shadow: 1px 1px 2px black, 0 0 1em red, 0 0 0.2em red; text-align: center;">Endroit à visiter a Tokyo</h1> 
+       
+
 
 
 
